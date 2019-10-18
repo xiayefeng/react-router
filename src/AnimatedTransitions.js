@@ -28,7 +28,6 @@ export default function AnimationExample() {
 
 function AnimationApp() {
   let location = useLocation()
-  console.log(location)
   return (
     <div style={styles.fill}>
       <ul style={styles.nav}>
