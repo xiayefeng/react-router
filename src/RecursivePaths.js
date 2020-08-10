@@ -26,6 +26,7 @@ export default function RecursiveExample() {
 
 function Person() {
   let {url} = useRouteMatch()
+  console.log(url)
   let {id} = useParams()
   let person = find(parseInt(id))
 

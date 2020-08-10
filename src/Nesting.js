@@ -45,6 +45,7 @@ function Home(){
 
 function Topics(){
   let {path, url} = useRouteMatch()
+  // console.log(path, url)
   return (
     <div>
       <h2>Topics</h2>
